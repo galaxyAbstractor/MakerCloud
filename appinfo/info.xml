@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>makercloud</id>
+    <name>MakerCloud</name>
+    <summary>Various tools and features that aims to be useful when running and managing makerspaces</summary>
+    <description><![CDATA[Various tools and features that aims to be useful when running and managing makerspaces]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="galaxyAbstractor@gmail.com" >Victor Nagy</author>
+    <namespace>MakerCloud</namespace>
+    <category>customization</category>
+    <category>integration</category>
+    <category>organization</category>
+    <category>social</category>
+    <category>tools</category>
+    <bugs>https://github.com/galaxyAbstractor/MakerCloud</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Maker Cloud</name>
+            <route>makercloud.page.index</route>
+        </navigation>
+    </navigations>
+</info>

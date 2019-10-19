@@ -1,0 +1,15 @@
+{
+    "name": "Maker Cloud",
+    "description": "Various tools and features that aims to be useful when running and managing makerspaces",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Victor Nagy"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
